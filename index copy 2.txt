@@ -100,7 +100,8 @@
 
     <div class="transfer1">
     
-    <a href = '#' onclick = "document.getElementById('page1').style.display='none'; document.getElementById('page2').style.display='block';">Next task</a>
+    <a href = '#' onclick = "document.getElementById('page1').style.display='none'; 
+    document.getElementById('page2').style.display='block';">Next task</a>
 </div> 
 </div>
 
@@ -141,12 +142,9 @@
     
     <div id = 'page03' style='display: none'>
         <h1>Третья страница</h1>
-        Содержание страницы 3<br>
-        Это последняя страница<br>
-        Не первая, не вторая<br>
-        Это конец!<br>
-        <br><br>
-        <a href = '#' onclick = "document.getElementById('page03').style.display='none'; document.getElementById('page02').style.display='block';">Назад</a>
+        Находится в разработке
+        <a href = '#' onclick = "document.getElementById('page3').style.display='none'; 
+        document.getElementById('page2').style.display='block';">Previous task</a>
         </div>
 </body>
 </html>
