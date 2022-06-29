@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ithillel text site</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body{
+            margin-left: 0px;
+            margin-top: 0px;
+            margin-bottom: 0;
+        }
+        li { 
+            font-style:italic; 
+   
+        }
+        h3 {
+            font-size: 130%;
+            font-style: bold;
+        }
+    </style>
+
+</head>
+
+<body>
+
+       
+    <div id="page1">
+        
+        
+<header>
+    <div class="head">
+        <div class="head-block">
+            <div class="head-logo">
+                <p  style=margin-left:30px> <img src="img1/logo.png" width="50%"></p>
+            </div>
+
+                <div class="head-text">
+                    <h1 align="center">ДЗ 16. Postman practice </h1>
+                </div>
+
+        </div>
+    </div>
+        
+</header>
+        
+    <section class="ref">
+        <div class="reference-text-row">
+
+            <p class="reference-dates"> Створено: 20.06.2022 15:01</p>
+            <p class="reference-dates"> Здати до 24 червня 13:00</p>
+        </div>
+        
+            <b class="reference-docs">API docs: <a href="http:\qauto.forstudy.space/api-docs/" target="_blank" style="color:#ffffff">
+            qauto.forstudy.space/api-docs/ </a></b>
+        
+    </section>
+
+    <div class="task">
+        <div class="task-title">
+
+            <h3>Creating Postman request:</h3>   
+        </div>
+        
+        <div class="task-list">
+        <p> 
+            <ol>
+                <li>Register new user</li>
+                <li>Login</li>
+                <li>Add a car</li>
+                <li>Add fuel expenses</li>
+                <li>Edit profile</li>
+                <li>Delete car</li>
+                <li>Delete profile</li>        
+            </ol>
+        </p>
+        </div>
+    </div>
+    
+
+    <div class="report">
+        <div class="report-title">
+            <h3>Add test (snippets) for each request:</h3> 
+
+        </div>
+    
+        <div class="report-list">
+        <p>
+            <ol>
+            <li>Response status</li>
+            <li>Response time</li>
+            <li>Response contains string</li>
+        
+            </ol> 
+        </p>
+        </div>
+    </div>
+
+    <div class="transfer1">
+    
+    <a href = '#' onclick = "document.getElementById('page1').style.display='none'; document.getElementById('page2').style.display='block';">Next task</a>
+</div> 
+</div>
+
+    <div id="page2" style="display:none">
+               
+
+        <div class="img-head">
+            <div class="img-head-block">
+                <h1><img style="padding: 10px;" alt="logo must be here" src="img1/logo.png" width="8%" align="top">
+
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ДЗ 17. HTML practice
+                </h1>
+            </div>
+        </div>
+    
+        <div class="block">
+            <p> <img class="img-img" src="img1/14.png">
+            </p>
+        </div>
+        
+
+        <div class="transfer2">
+            <div class="transfer2-text"
+            
+
+        
+        href = '#' onclick = "document.getElementById('page2').style.display='none'; 
+        document.getElementById('page1').style.display='block';">Previous task
+            </div>&nbsp;&nbsp;
+        <a href = '#' onclick = "document.getElementById('page2').style.display='none'; 
+        document.getElementById('page3').style.display='block';">В разработке</a>
+
+        </div>
+    </div>
+
+    </div>
+    
+    <div id = 'page03' style='display: none'>
+        <h1>Третья страница</h1>
+        Содержание страницы 3<br>
+        Это последняя страница<br>
+        Не первая, не вторая<br>
+        Это конец!<br>
+        <br><br>
+        <a href = '#' onclick = "document.getElementById('page03').style.display='none'; document.getElementById('page02').style.display='block';">Назад</a>
+        </div>
+</body>
+</html>
